@@ -6,7 +6,11 @@ python manage.py runserver
 setting中的SECRET_KEY 自行配置
 
 ### 后台管理员账号密码修改
-进入shell环境，执行：
+进入shell环境，
+
+python3 manage.py shell
+
+执行：
 
 from django.contrib.auth.models import User
 
